@@ -1,5 +1,27 @@
 # README
 
+## Rspecエラー問題集
+テストを実行するにはターミナルで以下を実行
+bundle install
+yarn install
+rails db:create
+rails db:migrate
+
+## 問題1
+bundle exec rspec spec/models/user_spec.rb
+
+## 問題２
+bundle exec rspec spec/models/user_spec.rb
+
+## 問題３
+bundle exec rspec spec/system/users_spec.rb
+
+## 問題4
+bundle exec rspec spec/system/tweets_spec.rb
+
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 

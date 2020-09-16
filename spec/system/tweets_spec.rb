@@ -47,8 +47,8 @@ end
 
 RSpec.describe 'ツイート編集', type: :system do
   before do
-    @tweet1 = FactoryBot.create(:tweet)
-    @tweet2 = FactoryBot.create(:tweet)
+    @tweet1 = FactoryBot.build(:tweet)
+    @tweet2 = FactoryBot.build(:tweet)
   end
   context 'ツイート編集ができるとき' do
     it 'ログインしたユーザーは自分が投稿したツイートの編集ができる' do
