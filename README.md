@@ -11,7 +11,7 @@ rails db:migrate
 bundle exec rspec spec/models/user_spec.rb
 
 ## 問題２
-bundle exec rspec spec/models/user_spec.rb
+bundle exec rspec spec/models/tweet_spec.rb
 
 ## 問題３
 bundle exec rspec spec/system/users_spec.rb
